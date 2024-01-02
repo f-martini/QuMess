@@ -52,8 +52,6 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-        with:
-          path: "docs/_site/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
