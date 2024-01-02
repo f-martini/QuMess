@@ -1,4 +1,3 @@
-theme: minima
+theme: just-the-docs
 title: QuMess
-description: Messy C++/Python library which implements functions and methods 
-  for quantum computing .
+description: A Messy Quantum Library.
