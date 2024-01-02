@@ -23,5 +23,9 @@ jobs:
         run: | 
           bundle config path vendor/bundle 
           bundle install
+        env:
+          BUNDLE_GEMFILE: ./docs/Gemfile
       - name: Build with Jekyll
         run: bundle exec jekyll build
+        env:
+          BUNDLE_GEMFILE: ./docs/Gemfile
